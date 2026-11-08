@@ -84,3 +84,38 @@ Use Python 3.12 and install the dependencies:
 ```bash
 python -m pip install -r requirements.txt
 python -m streamlit run app.py
+```
+
+Upload test_data.csv in the app, select a model, and inspect its metrics and confusion matrix. The comparison table shows all five models. Evaluation results can be downloaded as CSV.
+
+## Reproducing training
+
+Install Jupyter in the same environment:
+
+```bash
+python -m pip install jupyter
+python -m jupyter notebook
+```
+
+Open ML_Assignment_2.ipynb and run all cells from the project directory. This prepares the dataset, trains and saves all five models, and generates the evaluation results.
+
+The saved pipelines include preprocessing where required. The app does not retrain models on uploaded data.
+
+This application is an educational demonstration.
+
+```
+
+Upload test_data.csv in the app, select a model, and inspect its metrics and confusion matrix. The comparison table shows all five models. Evaluation results can be downloaded as CSV.
+
+## Reproducing training
+
+Install Jupyter in the same environment:
+
+```bash
+python -m pip install jupyter
+python -m jupyter notebook
+```
+
+Open ML_Assignment_2.ipynb and run all cells from the project directory. This prepares the dataset, trains and saves all five models, and generates the evaluation results.
+
+The saved pipelines include preprocessing where required. The app does not retrain models on uploaded data.
